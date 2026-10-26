@@ -2,9 +2,6 @@
 
 A small full stack document editor inspired by Google Docs, built for the Ajaia Full Stack Product Engineer assignment. Users can create, edit, rename, import, delete, and share rich-text documents with other users, with owner / editor / viewer permissions.
 
-**Live app:** `<ADD LIVE URL HERE>`
-(Hosted on a free tier. If it has been idle, the first load can take 30-60 seconds to wake up.)
-
 ## Test accounts
 
 Login is email-only (a deliberate demo simplification, see "Scope decisions"). Three seeded users exist:

@@ -187,8 +187,6 @@ cd server
 npm test
 ```
 
-`<ADD A ONE-LINE SUMMARY OF THE TEST SUITE HERE>` The suite exercises the permission model end to end: a user with no access gets 404, a viewer can read but not edit, an editor can edit but not share, and only the owner can share or delete.
-
 ## Scope decisions
 
 Deliberate cuts, made to go deep on the core loop within the timebox:
@@ -199,15 +197,3 @@ Deliberate cuts, made to go deep on the core loop within the timebox:
 - **No version history, comments, or PDF export.**
 - **Roles are limited to owner, editor, and viewer**, with no per-document permission customization.
 - **Not designed for scale:** large documents, many users, backups, and availability SLAs were out of scope.
-
-## What I would build next (with 2-4 more hours)
-
-1. `.docx` import via `mammoth`
-2. Real-time presence and conflict handling (for example Yjs) to replace last-write-wins
-3. Real authentication
-4. Version history with restore
-5. Export to Markdown / PDF
-
-## Deployment
-
-`<ADD DEPLOYMENT NOTES HERE: host, build and start commands, and required environment variables (DATABASE_URL, SESSION_SECRET, NODE_ENV=production)>`

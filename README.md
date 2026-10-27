@@ -1,6 +1,6 @@
 # Lightweight Collaborative Document Editor
 
-A small full stack document editor inspired by Google Docs, built for the Ajaia Full Stack Product Engineer assignment. Users can create, edit, rename, import, delete, and share rich-text documents with other users, with owner / editor / viewer permissions.
+A small full stack document editor inspired by Google Docs. Users can create, edit, rename, import, delete, and share rich-text documents with other users, with owner / editor / viewer permissions.
 
 ## Test accounts
 
